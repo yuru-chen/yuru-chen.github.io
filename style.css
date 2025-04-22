@@ -1,0 +1,98 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lobster', cursive, Arial, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #0288d1);
+
+header {
+  background-color: #0288d1;
+  color: white;
+  padding: 20px 0;
+text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-family: 'Microsoft JhengHei', Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive, Arial, sans-serif;
+  color: #0288d1;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #0288d1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+#about .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
